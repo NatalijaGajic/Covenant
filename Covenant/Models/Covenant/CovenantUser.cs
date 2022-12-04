@@ -17,7 +17,7 @@ namespace Covenant.Models.Covenant
             this.NormalizedEmail = "";
             this.PhoneNumber = "";
             this.LockoutEnd = DateTime.UnixEpoch;
-            this.ThemeId = 1;
+            this.ThemeId = 2;
         }
 
         public int ThemeId { get; set; }
