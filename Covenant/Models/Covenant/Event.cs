@@ -34,6 +34,7 @@ namespace Covenant.Models.Covenant
         public EventLevel Level { get; set; } = EventLevel.Highlight;
         public EventType Type { get; set; } = EventType.Normal;
 		public string Context { get; set; } = "*";
+        public string MessageStatus { get; set; }
     }
 
     public class DownloadEvent : Event
